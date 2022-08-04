@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:iheb_thouabtia1/screens/HomeScreen.dart';
-import 'package:iheb_thouabtia1/services/user_services.dart';
+import 'package:....../screens/HomeScreen.dart';
+import 'package:....../services/user_services.dart';
 
 class AuthProvider with ChangeNotifier {
   FirebaseAuth auth = FirebaseAuth.instance;
